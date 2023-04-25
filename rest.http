@@ -1,0 +1,26 @@
+###
+POST http://localhost:3009/createTask
+
+###
+GET http://localhost:3009/getTasks
+
+###
+PUT http://localhost:3009/updateTasks/6447e0b462e856370458334d
+
+###
+DELETE http://localhost:3009/deleteTask/6447e0b462e856370458334d
+
+###
+GET http://localhost:3009/searchTaskByTitle/First TAsk
+
+###
+GET http://localhost:3009/searchTaskByDescription/must finish before noon
+
+###
+GET http://localhost:3009/searchTaskByPriority/LOW
+
+###
+GET http://localhost:3009/searchTaskByStatus/todo
+
+###
+GET http://localhost:3009/smartSearch/befo
